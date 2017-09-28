@@ -9,4 +9,4 @@ inputs:
   - name: sources
   - name: ci
 run:
-  path: ci/scripts/unit.sh
+  path: ci/scripts/build.sh
