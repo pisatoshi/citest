@@ -8,5 +8,7 @@ image_resource:
 inputs:
   - name: sources
   - name: ci
+  - name: dependency-cache
+    path: /cache
 run:
   path: ci/scripts/build.sh
